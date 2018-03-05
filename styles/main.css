@@ -1,0 +1,50 @@
+/* bh-colors (main.css) */
+/* Author: Ben Holzhauer */
+
+body {
+  overflow: hidden;
+  margin: 0;
+  cursor: url(../images/cursor.png), auto;
+  text-align: center;
+  opacity: 0;
+  color: #e5e5e5;
+  background-color: #262626;
+  font-family: "Muli", sans-serif;
+}
+
+a {
+  cursor: url(../images/cursor.png), auto;
+  transition: border-color 0.5s;
+  text-decoration: none;
+  color: #e5e5e5;
+  border-bottom: 1px solid rgba(229, 229, 229, 0);
+}
+
+a:hover {
+  border-color: rgba(229, 229, 229, 1);
+}
+
+#header {
+  position: absolute;
+  top: 3vh;
+  left: 2vw;
+  width: 7vw;
+  font-size: 6.5vh;
+  font-weight: bold;
+}
+
+#info {
+  position: absolute;
+  top: 4vh;
+  right: 2vw;
+  width: 15vw;
+  text-align: left;
+  font-size: 2.5vh;
+  line-height: 4vh;
+}
+
+#info br {
+  display: block;
+  margin-top: 4vh;
+  content: "";
+}
